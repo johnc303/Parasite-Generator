@@ -6,15 +6,48 @@
 	<title>POSSESSION: Parasite Generator</title>
 	<script type="text/javascript" src="html/_js/config.js"></script>
 	<script type="text/javascript" src="html/_js/debugger.js"></script>
-	<script type="text/javascript" src="html/_js/parasite_tables.js"></script>
 	<script type="text/javascript" src="html/_js/eventmanager.js"></script>
-	<script type="text/javascript" src="html/_js/parasite_generator.js"></script>
+	<script type="text/javascript" src="html/_js/template_mananger.js"></script>
+
+	<script type="text/javascript" src="html/_js/core.js"></script>
+
+	<script type="text/javascript" src="html/_js/generators/parasite_generator.js"></script>
+	<script type="text/javascript" src="html/_js/data/parasite_tables.js"></script>
+
 	<link rel="stylesheet" href="html/_css/generic.css"/>
+
+	<link rel="stylesheet" href="html/_css/interface.css"/>
+	<link rel="stylesheet" href="html/_css/stat_bars.css"/>
+	<link rel="stylesheet" href="html/_css/editables.css"/>
+
+	<link rel="stylesheet" href="html/_css/load_save.css"/>
+
 </head>
 
 <body onload="EM.trigger('primeDOMReferences', document); EM.trigger('generateNewParasite');">
-	<h1>POSSESSION: Parasite Generator <input type="button" value="Generate" onclick="EM.trigger('generateNewParasite');"/></h1>
+
+<div id="blankerLayerL">
+	<div id="messageWrapperL"></div>
+</div>
+
+<div id="titleBarL">
+	<h1>POSSESSION: Parasite Generator</h1>
+	<div id="buttonsHolderL">
+		<a href="?still"  class="normalButtonC" onclick="return EM.trigger('generateNewParasite');">Generate</a>
+		<a href="?still" class="normalButtonC" onclick="return alert('Feature not available in demo :p')">Load / Save</a>
+	</div>
+</div>
+
+<div id="contentsWrapperL">
 	<div id="outputHolderL">
 	</div>
+</div>
+
+
+<div id="templateHolderL">
+	<div class="templateFragmentC cabalOverviewWrapperC">
+	</div>
+</div>
+
 </body>
 </html>

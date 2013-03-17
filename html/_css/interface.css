@@ -1,0 +1,118 @@
+#titleBarL
+{
+	position:absolute;
+	top:0px;
+	left:10px;
+	right:10px;
+	background-color:#2B2B2B;
+	border:3px solid #D4D4D4;
+	border-style: inset;
+	border-top-width:0px;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	color:white;
+}
+
+#titleBarL h1
+{
+	margin:0px;
+	margin-right:55px;
+	margin-top:10px;
+	padding:0px;
+	float:right;
+	font-size:16px;
+}
+
+#titleBarL
+{
+}
+
+#titleBarL a:first-child
+{
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#titleBarL a
+{
+	text-decoration:none;
+	display:inline-block;
+	padding:10px;
+}
+
+#titleBarL a.normalButtonC
+{
+	color:#ffffff;
+	background-color:#2B2B2B;
+}
+
+#titleBarL a.highlightedTabC
+{
+	color:#2B2B2B;
+	background-color:#ffffff;
+}
+
+#contentsWrapperL
+{
+	position:absolute;
+	top:50px;
+	left:10px;
+	right:10px;
+	bottom:10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#2B2B2B;
+	border:3px solid #D4D4D4;
+	border-style: inset;
+	color:#dddddd;
+	overflow:hidden;
+}
+
+#outputHolderL
+{
+}
+
+.tabInnerWrapperC
+{
+	position:relative;
+	margin:1%;
+	height:98%;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.tabHolderC h2
+{
+	text-align:center;
+}
+
+.tabIntroWrapperC
+{
+	position:relative;
+	height:24%;
+	margin-bottom:1%;
+	border-bottom:1px solid #D4D4D4;
+	overflow:auto;
+}
+
+.tabContentWrapperC
+{
+	position:relative;
+	height:73%;
+	overflow:auto;
+}
+
+
+.visibleTabC
+{
+}
+
+.hiddenTabC
+{
+}
