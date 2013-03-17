@@ -67,7 +67,10 @@
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	border-radius: 10px;
-	background-color:#2B2B2B;
+	background-color:#131313;
+	background-image:url("../images/tentacle_friend_background.jpg");
+	background-repeat:no-repeat;
+	background-position:bottom right;
 	border:3px solid #D4D4D4;
 	border-style: inset;
 	color:#dddddd;
@@ -76,6 +79,7 @@
 
 #outputHolderL
 {
+	padding:10px;
 }
 
 .tabInnerWrapperC
